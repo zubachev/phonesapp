@@ -1,0 +1,63 @@
+body {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+    background-color: #f2f2f2;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+h2 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+#slider img {
+    display: block;
+    width: 100%;
+}
+
+
+
+section {
+    padding: 5%;
+}
+section#sentiment {
+    background-color: #904de429;
+}
+section#portfolio {
+    background-color: #0469e81a;
+}
+section#about {
+    background-color: #94c1a870;
+}
+section#progress {
+    background-color: #ffd70029;
+}
+
+
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -transform: rotate(-7deg);
+}
